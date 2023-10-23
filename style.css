@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #1F2937;
+}
+ul {
+    list-style-type: none;
+    text-decoration: none;
+
+}
+
+li {
+    color: #F9FAF8
+    text-decoration: none;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #F9FAF8;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.right-links {
+    display: flex;
+    margin-left: auto;
+    gap: 8px;
+}
+
+.left-links {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 900;
+}
