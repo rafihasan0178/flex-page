@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -127,10 +128,8 @@ button {
  }
 
  .cards {
-    background-color: #fff;
     display: flex;
     justify-content: center;
-    height: 400px;
     gap: 52px;
  }
 
@@ -160,5 +159,22 @@ button {
  
 .info {
         max-width: 200px;
+        max-height: 150px;
+        background-color: #fff;
       }
- 
+
+
+/* Footer Started Here */
+
+.foot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+  
+}
+
+
+/* Quote Part Starts here */
