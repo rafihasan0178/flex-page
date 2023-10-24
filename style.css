@@ -179,7 +179,81 @@ button {
 
 /* Quote Part Starts here */
 
-.quote {
-    height: 400px;
+.quote-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
     background-color: #E5E7EB;
+}
+
+.quote {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    margin: 100px;
+    padding: 20px;
+}
+
+.author {
+    display: block;
+    text-align: right;
+    font-size: 16px;
+    margin-top: 10px;
+    color: black;
+    font-style: normal;
+    font-weight: 500;
+}
+
+/* Blue Section Starts Here */
+
+.fourth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 400px;
+}
+
+.bluesection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    width: 65%;
+    max-height: 30%;
+    text-align: center;
+    margin: 20px;
+    padding: 70px;
+    border-radius: 8px;
+}
+
+.bluetext {
+    font-size: 24px;
+    font-weight: 800;
+    color: white;    
+    text-align: left;
+    margin-left: 20px;
+}
+
+.dbutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 150px;
+    height: 30px;
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: #fff;
+    font-weight: 900;
+    font-size: 16px;
+    border: 2px solid white;
+    text-align: center;
+    padding: 5px;
+}
+
+.fourthtext {
+    font-size: 19px;
+    font-weight: 400;
 }
