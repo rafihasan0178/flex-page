@@ -178,3 +178,8 @@ button {
 
 
 /* Quote Part Starts here */
+
+.quote {
+    height: 400px;
+    background-color: #E5E7EB;
+}
